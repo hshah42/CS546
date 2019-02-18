@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Best Login Page in the World!</title>
+    <link rel="stylesheet" href="../../public/site.css">
+</head>
+<body>
+    <header>
+            <h1>The Best Login Page in the World!</h1>
+    </header>
+    <main>
+            <form id="login-form" action="/login" method="POST">
+                <label>
+                    Username: 
+                    <input type="text" name="username" />
+                </label>
+                <br/>
+                <label>
+                    Password: 
+                    <input type="password" name="password" />
+                </label>
+                <br/>
+                <button type="submit">Login</button>
+            </form>
+            {{#if hasErrors}}
+                <ul>
+            {{#each errors}}
+                <li class="error">
+                    {{this}}
+                </li>
+            {{/each}}
+                </ul>
+            {{/if}}
+    </main>
+</body>
+</html> 

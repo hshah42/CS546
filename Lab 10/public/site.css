@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 12pt;
+    background-color: lightslategray;
+}
+
+main{
+    max-width: 75%;
+}
+
+h1{
+    font-size: 16pt;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+h3{
+    font-size: 11pt;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    font-weight: bold;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    clear: both;
+}
+
+.background_color{
+    background-color: white;
+}
+
+.is-palindrome{
+    color: #0000FF;
+}
+
+.not-palindrome{
+    color:#FF0000;
+}
+
+.error{
+    color: #dc3545;
+    font-weight: bold;
+}

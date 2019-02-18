@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 12pt;
+    background-color: lightslategray;
+}
+
+main{
+    max-width: 75%;
+}
+
+h1{
+    font-size: 16pt;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+label{
+    font-weight: bold;
+}
+
+.background_color{
+    background-color: white;
+}
+
+.success{
+    color: #28a745;
+}
+
+.failure{
+    color: #dc3545;
+}
+
+.error{
+    color: #dc3545;
+    font-weight: bold;
+}
